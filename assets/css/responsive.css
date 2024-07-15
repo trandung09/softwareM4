@@ -1,0 +1,204 @@
+/* Responsive */
+@media (max-width: 1199.98px) {
+  .section-two .inner-wrap .inner-title {
+    font-size: 55px;
+  }
+
+  .section-three .inner-image {
+    right: 0;
+  }
+
+  .section-three .inner-main .inner-content {
+    width: 70%;
+  }
+
+  .section-three .inner-main .inner-desc {
+    font-size: 55;
+  }
+}
+
+/* Kích thước nhỏ hơn 992px */
+@media (max-width: 991.98px) {
+  .section-one .inner-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .section-one .inner-wrap .inner-desc {
+    width: 80%;
+  }
+
+  .section-two .inner-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .section-two .inner-wrap .inner-image {
+    width: 100%;
+    margin-right: 0;
+    height: auto;
+  }
+
+  .section-two .inner-wrap .inner-content {
+    margin: 45px 0 0 0;
+  }
+
+  .section-two .inner-wrap .inner-title {
+    font-size: 55px;
+  }
+
+  .section-three .inner-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section-three .inner-wrap .inner-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+  }
+
+  .section-three .inner-content .inner-desc {
+    font-size: 48px;
+  }
+
+  .section-three .inner-wrap .inner-image {
+    position: relative;
+    bottom: auto;
+    width: 60%;
+  }
+}
+
+/* Kích thước nhỏ hơn 768px */
+@media (max-width: 767.98px) {
+  .section-one .inner-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .section-one .inner-wrap .inner-desc {
+    font-size: 16px;
+    padding: 0 20px;
+    text-align: center;
+  }
+
+  .section-one .inner-wrap .inner-title {
+    font-size: 40px;
+  }
+
+  .section-one .inner-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .section-one .inner-button .button {
+    margin: 8px 0 8px 0;
+  }
+
+  .section-two .inner-wrap .inner-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section-two .inner-content .inner-title {
+    text-align: center;
+    font-size: 45px;
+    max-width: 70%;
+  }
+
+  .section-two .inner-content .inner-desc {
+    text-align: center;
+  }
+
+  .section-two .inner-content .inner-list {
+    justify-content: space-around;
+  }
+
+  .section-three .inner-content .inner-desc {
+    font-size: 40px;
+  }
+
+  .section-three .inner-wrap .inner-image {
+    width: 80%;
+  }
+}
+
+/* Kích thước nhỏ hơn 576px */
+@media (min-width: 275.98px) and (max-width: 575.98px) {
+  .section-one .inner-wrap .inner-desc {
+    font-size: 16px;
+    padding: 0 20px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .section-one .inner-wrap .inner-title {
+    font-size: 40px;
+  }
+
+  .section-two .inner-content .inner-title {
+    font-size: 35px;
+    max-width: 70%;
+  }
+
+  .section-two .inner-content .inner-desc {
+    font-size: 16px;
+    /* width: 60%; */
+  }
+
+  .section-two .inner-content .inner-list {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section-two .inner-list .inner-item {
+    margin-right: 0;
+    margin: 15px;
+  }
+
+  .section-three .inner-content .inner-title {
+    font-size: 16px;
+  }
+
+  .section-three .inner-content .inner-desc {
+    font-size: 35px;
+  }
+
+  .section-three .inner-wrap .inner-image {
+    width: 90%;
+  }
+}
+
+@media (max-width: 475.98px) {
+  .section-two .inner-content .inner-title {
+    font-size: 30px;
+    max-width: 70%;
+  }
+
+  .section-three .inner-content .inner-desc {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 425.98px) {
+  .section-two .inner-content .inner-title {
+    font-size: 25px;
+    max-width: 70%;
+  }
+}
+/* End Responsive */
