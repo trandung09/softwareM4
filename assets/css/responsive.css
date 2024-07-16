@@ -15,6 +15,10 @@
   .section-three .inner-main .inner-desc {
     font-size: 55;
   }
+
+  .section-seven .inner-list .inner-item h5 {
+    font-size: 22px;
+  }
 }
 
 /* Kích thước nhỏ hơn 992px */
@@ -113,6 +117,33 @@
   .section-six .inner-main .inner-content .inner-strong-desc {
     font-size: 48.64px;
   }
+
+  .section-seven .inner-main .inner-list .inner-item {
+    width: 46%;
+  }
+
+  .section-seven .inner-list .inner-item h5 {
+    font-size: 25.6px;
+  }
+
+  .section-eight .inner-main .inner-info {
+    padding: 32px 16px;
+  }
+
+  .section-eight .inner-info .inner-list {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .section-eight .inner-info .inner-list .inner-item {
+    width: 45%;
+    margin-bottom: 8px;
+  }
+
+  .button-section-eight {
+    margin-left: 0;
+    margin-top: 5px;
+  }
 }
 
 /* Kích thước nhỏ hơn 768px */
@@ -202,6 +233,18 @@
   .section-six .inner-main .inner-content .inner-strong-desc {
     font-size: 35.64px;
   }
+
+  .section-seven .inner-main .inner-item {
+    margin-bottom: 20px;
+  }
+
+  .section-seven .inner-main .inner-content p {
+    font-size: 17px
+  }
+
+  .section-seven .inner-main .inner-content h3 {
+    font-size: 50px;
+  }
 }
 
 /* Kích thước nhỏ hơn 576px */
@@ -265,7 +308,33 @@
   .section-six .inner-main .inner-content .inner-strong-desc {
     font-size: 30px;
   }
+
+  .section-seven .inner-main .inner-content p {
+    font-size: 17px
+  }
+
+  .section-seven .inner-main .inner-content h3 {
+    font-size: 45px
+  }
+
+  .section-seven .inner-main .inner-list .inner-item {
+    width: 100%;
+    margin-bottom: 25px;
+  }
 }
+
+
+@media (max-width: 539.98px) {
+  .section-eight .inner-info .inner-list {
+    justify-content: center;
+  }
+
+  .section-eight .inner-info .inner-list .inner-item {
+    width: 100%;
+    text-align: center;
+  } 
+}
+
 
 @media (max-width: 475.98px) {
   .section-two .inner-content .inner-title {
@@ -283,6 +352,14 @@
 
   .section-six .inner-main .inner-strong-desc {
     text-align: justify;
+  }
+
+  .section-seven .inner-main .inner-content p {
+    font-size: 16px
+  }
+
+  .section-seven .inner-main .inner-content h3 {
+    font-size: 40px
   }
 }
 
@@ -307,6 +384,20 @@
 
   .section-six .inner-main .inner-list .inner-item-box {
     justify-content: center;
+  }
+
+  .section-eight .inner-info .inner-list .inner-item h3{
+    font-size: 16px;
+  } 
+
+  .section-eight .inner-info .inner-list .inner-item h2{
+    font-size: 16px;
+  } 
+}
+
+@media (max-width: 365.98px) {
+  .button-section-eight {
+    padding: 12px 22px;
   }
 }
 /* End Responsive */
