@@ -436,6 +436,10 @@
   font-weight: 700;
   display: block;
 }
+
+.section-five .inner-list .inner-item:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
 /* End Section Five */
 
 /* Section Six */
@@ -573,6 +577,10 @@
   font-weight: 500;
   color: #777777;
 }
+
+.section-seven .inner-list .inner-item:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
 /* End Section Seven */
 
 /* Section Eight */
@@ -638,7 +646,165 @@
 }
 
 .button-section-eight:hover {
-  color: #fff;
-  background: #1d1c1c;
+  background-color: var(--color-two);
+  color: #000;
 }
 /* End Section Eight */
+
+/* Section Nine */
+.section-nine {
+  padding: 80px 0 112px;
+  background: #31363B;
+}
+
+.section-nine .inner-content {
+  margin: 0 0 48px;
+}
+
+.section-nine .inner-content p {
+  font-size: 17.6px;
+  font-weight: 700;
+  color: #bbbbbb;
+  margin: 0 0 8px;
+}
+
+.section-nine .inner-content h3 {
+  font-size: 60.8px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.section-nine .inner-main .inner-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-nine .inner-main .inner-list .inner-item {
+  width: 31.5%;
+  background: #fff;
+  border-radius: 10px;
+  padding: 40px;
+  margin-bottom: 30px;
+}
+
+
+.section-nine .inner-main .inner-list .inner-item p {
+  padding: 0 0 24px;
+  margin: 0 0 16px;
+  font-size: 25.6px;
+  color: #777777;
+  font-style: italic;
+  text-align: justify;
+}
+
+.section-nine .inner-main .inner-list .inner-item .inner-item-box {
+  display: flex;
+  position: relative;
+}
+
+.section-nine .inner-main .inner-list .inner-item .inner-item-box span {
+  color: #716f6f;
+  font-size: 30px;
+  position: absolute;
+  top: -40px;
+  right: 0px;
+}
+
+.section-nine .inner-main .inner-list .inner-item .inner-item-box img {
+  object-fit: cover;
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+
+.section-nine .inner-main .inner-list .inner-item .inner-item-box-info p {
+  margin: 0;
+  padding: 0;
+  color: #202020;
+  font-weight: 700;
+  font-style: normal;
+}
+/* End Section Nine */
+
+/* Section Ten */
+.section-ten {
+  background: #fff;
+  padding: 90px 0 120px;
+}
+
+.section-ten .inner-wrap {
+  background: #DCE8EB;
+  padding: 96px 64px;
+  border-radius: 10px;
+}
+
+.section-ten .inner-main .inner-content h4 {
+  margin: 0 0 8px;
+  font-size: 17.6px;
+  color: #777777;
+  font-weight: 700;
+}
+
+.section-ten .inner-main .inner-content h3 {
+  margin: 0 0 48px;
+  font-size: 49.6px;
+  font-weight: 700;
+}
+
+.section-ten .inner-main .inner-form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.section-ten .inner-main .inner-form .form-textarea {
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+
+.section-ten .inner-main .inner-form .form-textarea textarea {
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+  padding: 16px 24px;
+}
+
+.section-ten .inner-main .inner-form .form-line {
+  width: 32.6%;
+  margin: 0 0 19.2px;
+}
+
+.section-ten .inner-main .inner-form .form-line input {
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+  padding: 16px 24px;
+}
+
+.section-ten .inner-main .inner-form .form-button {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.section-ten .inner-main .inner-form .form-button .button-section-ten {
+  background: #000;
+  color: #fff;
+  padding: 12.8px 28.8px;
+  font-size: 17.6px;
+}
+
+.section-ten .inner-main .inner-form .form-button .button-section-ten:hover {
+  background-color: var(--color-two);
+  color: #000;
+  transition: 0.4s ease-in-out;
+}
+/* End Section Ten */
