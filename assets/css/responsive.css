@@ -23,6 +23,29 @@
 
 /* Kích thước nhỏ hơn 992px */
 @media (max-width: 991.98px) {
+  .header .inner-icon-mobile {
+    display: block;
+    font-size: 30px;
+    cursor: pointer; /* khi hover con con trỏ thành bàn tay  */
+  }
+
+  .header .inner-menu {
+    display: none;
+  }
+
+  .header .inner-social {
+    display: none;
+  }
+
+  .header2 .menu-bar-responsive {
+    display: flex;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+  }
   .section-one .inner-wrap {
     display: flex;
     flex-direction: column;
